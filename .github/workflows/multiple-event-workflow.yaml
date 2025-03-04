@@ -5,7 +5,7 @@ on:
     types: [opened]
   workflow_dispatch:
 
-job:
+jobs:
   multiple-event-job:
     runs-on: ubuntu-latest
     steps:

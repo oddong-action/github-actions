@@ -1,0 +1,4 @@
+name: checkout
+on: workflow-dispatch
+
+jobs:

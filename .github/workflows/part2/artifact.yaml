@@ -1,3 +1,5 @@
+# actions/upload-artifact@v3 으로 하니깐 오류 발생
+# actions/upload-artifact@v4 로 변경하니 오류 해결
 name: artifact
 on: push
 

@@ -1,3 +1,6 @@
+# 한 job에서 생성된 데이터.
+# 동일한 job의 step, 다른 job 데이터 공유 가능
+
 name: output
 on: push
 

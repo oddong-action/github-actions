@@ -35,12 +35,12 @@ jobs:
                 {
                     "pretext": "create repo result",
                     "color": "28a745",
+                    "text": "hello",
                     "fields": [
                         {
                             "title": "create repo result ${{ steps.create-repo.outcome }}",
                             "short": true,
-                            "value": "${{ inputs.prefix }}-${{ inputs.name }}",
-                            "text": "hello"
+                            "value": "${{ inputs.prefix }}-${{ inputs.name }}"
                         }    
                     ]                    
                 }

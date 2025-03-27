@@ -22,7 +22,7 @@ jobs:
         steps:
         - name: gh auth login
           run: |
-            echo ${{ secrets.RERSONAL_ACCESS_TOKEN }} | gh auth login --with-token
+            echo "${{ secrets.RERSONAL_ACCESS_TOKEN }}" | gh auth login --with-token
         - name: create-repo
           id: create-repo
           run: |
